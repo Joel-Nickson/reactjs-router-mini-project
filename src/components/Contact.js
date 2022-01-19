@@ -84,18 +84,6 @@ const Contact = () => {
               Contact Us
             </button>
           </div>
-          <div>
-            <div class="mt-2 text-gray-700 text-right text-xs">
-              by
-              <a
-                href="https://herotofu.com"
-                class="hover:underline"
-                target="_blank"
-              >
-                HeroTofu
-              </a>
-            </div>
-          </div>
         </form>
       </div>
     </div>
