@@ -12,9 +12,12 @@ import Products from './components/Products';
 function App() {
   return (
     <div className="App">
+
       <Router>
         <Navbar />
-
+        <h1 className="text-3xl font-bold underline">
+          Header
+        </h1>
         <Switch>
           <Route path='/home' >
             <Home />
