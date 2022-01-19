@@ -18,13 +18,6 @@ const Navbar = () => {
 };
 
 const Nav = (props) => {
-  // if (props.page === 'home') {
-  //   return (
-  //     <li className="nav-item">
-  //       <Link className="nav-link" href="#" to='/'>Home </Link>
-  //     </li>
-  //   )
-  // } else {
   return (
     <li className="nav-item">
       <Link className="nav-link" href="#" to={'/' + props.page}>{props.page} </Link>
